@@ -1,3 +1,9 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .App {
   text-align: center;
 }
@@ -22,12 +28,47 @@
 .App-link {
   color: #61dafb;
 }
+.type-wrap-1 {
+  height: 250px;
+  padding: 20px;
+}
+#typed1 {
+  color: #282c34;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+.profile {
+  background: #282c34;
+  width: 100%;
+ 
+  
+  border: #61dafb solid 25px;
+}
+.profile2 {
+  background: #282c34;
+  width: 100%;
+ 
+  
+  border: #f84150 solid 25px;
+}
+.profile h1, .profile2 h1  {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding: 50px 0 0 0;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.profile img, .profile2 img {
+  width: 100%;
+  padding: 50px;
+}
+.footer {
+  background: #282c34;
+  color: aliceblue;
+  padding: 50px;
+}
+.logo {
+  width: 35px;
 }
